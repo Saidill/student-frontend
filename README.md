@@ -77,7 +77,6 @@ src/
 
 3. Delete Student:
    - Click "Hapus" on student row
-   - Confirm deletion
 
 ## Build for Production
 
