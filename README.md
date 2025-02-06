@@ -49,8 +49,8 @@ yarn dev
 
 ## Features
 
-- 📝 CRUD operations for student data
-- 🔄 Real-time updates
+- CRUD operations for student data
+- Real-time updates
 
 ## Project Structure
 
