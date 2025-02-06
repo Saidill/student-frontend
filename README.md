@@ -23,8 +23,8 @@ https://youtu.be/NGNJoxM63k8
 
 1. Clone repository:
 ```bash
-git clone [repository-url]
-cd [project-directory]
+git clone https://github.com/Saidill/student-frontend.git
+cd student-frontend
 ```
 
 2. Install dependencies:
@@ -49,9 +49,7 @@ yarn dev
 
 ## 🎯 Features
 
-- ✨ Responsive design
 - 📝 CRUD operations for student data
-- 🎨 Modern UI with shadcn/ui
 - 🔄 Real-time updates
 
 ## 📚 Project Structure
