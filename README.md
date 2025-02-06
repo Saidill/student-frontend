@@ -1,6 +1,6 @@
 # Student Crud System Frontend
-
-## 🚀 Tech Stack
+A web application for student management built with Next.js, TypeScript, and Tailwind CSS
+## Tech Stack
 
 - Next.js 14
 - TypeScript
@@ -8,18 +8,18 @@
 - shadcn/ui
 - Axios
 
-## 📱 Demo
+## Demo
 Watch Demo Video
 https://youtu.be/NGNJoxM63k8
 
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+
 - npm or yarn
 - Git
 
-## 🛠️ Installation
+## Installation
 
 1. Clone repository:
 ```bash
@@ -47,12 +47,12 @@ npm run dev
 yarn dev
 ```
 
-## 🎯 Features
+## Features
 
 - 📝 CRUD operations for student data
 - 🔄 Real-time updates
 
-## 📚 Project Structure
+## Project Structure
 
 ```
 src/
@@ -63,7 +63,7 @@ src/
 └── types/             # TypeScript types
 ```
 
-## 🔧 Usage
+## Usage
 
 1. Add Student:
    - Click "Tambah Mahasiswa"
@@ -79,7 +79,7 @@ src/
    - Click "Hapus" on student row
    - Confirm deletion
 
-## 🚀 Build for Production
+## Build for Production
 
 ```bash
 npm run build
@@ -89,7 +89,7 @@ yarn build
 yarn start
 ```
 
-## 📝 Notes
+## Notes
 
 - Backend API must be running at `http://localhost:8080`
 - Update API URL in `.env.local` if using different backend URL
