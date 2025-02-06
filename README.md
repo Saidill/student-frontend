@@ -8,13 +8,9 @@
 - shadcn/ui
 - Axios
 
-## 📱 Demo & Tutorial
-
-[![Watch the demo](https://img.shields.io/badge/YouTube-Tutorial-red)](https://youtu.be/NGNJoxM63k8)
-
-Watch demo application:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NGNJoxM63k8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 📱 Demo
+Watch Demo Video
+https://youtu.be/NGNJoxM63k8
 
 
 ## 📋 Prerequisites
