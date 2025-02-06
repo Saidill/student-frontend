@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Student Crud System Frontend
 
-## Getting Started
+## 🚀 Tech Stack
 
-First, run the development server:
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Axios
 
+## 📱 Demo & Tutorial
+
+[![Watch the demo](https://img.shields.io/badge/YouTube-Tutorial-red)](https://youtu.be/YOUR_VIDEO_ID)
+
+Watch demo application:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## 📋 Prerequisites
+
+- Node.js 18+
+- npm or yarn
+- Git
+
+## 🛠️ Installation
+
+1. Clone repository:
+```bash
+git clone [repository-url]
+cd [project-directory]
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Configure environment:
+```bash
+# Create .env.local file
+NEXT_PUBLIC_API_URL=http://localhost:8080/api
+```
+
+4. Run development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✨ Responsive design
+- 📝 CRUD operations for student data
+- 🎨 Modern UI with shadcn/ui
+- 🔄 Real-time updates
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Project Structure
 
-## Learn More
+```
+src/
+├── app/
+│   └── page.tsx        # Main page
+├── components/         # UI components
+├── services/          # API services
+└── types/             # TypeScript types
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Add Student:
+   - Click "Tambah Mahasiswa"
+   - Fill required fields
+   - Click "Simpan"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Edit Student:
+   - Click "Edit" on student row
+   - Update fields
+   - Click "Update"
 
-## Deploy on Vercel
+3. Delete Student:
+   - Click "Hapus" on student row
+   - Confirm deletion
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Build for Production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm run start
+# or
+yarn build
+yarn start
+```
+
+## 📝 Notes
+
+- Backend API must be running at `http://localhost:8080`
+- Update API URL in `.env.local` if using different backend URL
