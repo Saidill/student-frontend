@@ -52,17 +52,6 @@ yarn dev
 - CRUD operations for student data
 - Real-time updates
 
-## Project Structure
-
-```
-src/
-├── app/
-│   └── page.tsx        # Main page
-├── components/         # UI components
-├── services/          # API services
-└── types/             # TypeScript types
-```
-
 ## Usage
 
 1. Add Student:
